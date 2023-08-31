@@ -4,24 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RecZero</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="menu">
-            <h1><img src="img/logo.png" alt="Logo RecZero" width="300 px"></h1>
+            <h1><img src="img/logo.png" alt="Logo RecZero" width="300px"></h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="pontos.html">Locais</a></li>
+                    <li><a href="outrospontos.html">Locais</a></li>
 
                 </ul>
             </nav>
         </div>
     </header>
     <main>
+        <hr>
         <h2>Bem vindo a Veneza Brasileira!</h2>
-        <img src="img/banner1.jpg" alt="Foto Marco Zero" width="37%">
-        <img src="img/banner4.jpg" alt="Foto Praça do Arsenal">
+        <ul class="slide">
+            <li>
+                <input type="radio" id="slide1" name="slide" checked>
+                <label for="slide1"></label>
+                <img src="img/banner1.jpg" alt="Foto Marco Zero">
+            </li>
+            <li>
+                <input type="radio" id="slide2" name="slide" checked>
+                <label for="slide2"></label>
+                <img src="img/banner4.jpg" alt="Foto Praça do Arsenal">
+            </li>
+            <li>
+                <input type="radio" id="slide3" name="slide" checked>
+                <label for="slide3"></label>
+                <img src="img/banner2.jpg" alt="Foto Rua do Bom Jesus">
+            </li>
+            <li>
+                <input type="radio" id="slide4" name="slide" checked>
+                <label for="slide4"></label>
+                <img src="img/banner3.webp" alt="Foto Feirinha de artesanato">
+            </li>
+            <li>
+                <input type="radio" id="slide5" name="slide" checked>
+                <label for="slide5"></label>
+                <img src="img/banner6.webp" alt="Foto Parque das Esculturas de Brennad">
+            </li>
+        </ul>
+        
+        
         
         <p>A história do Marco Zero no Recife Antigo
             O Marco Zero no Recife Antigo é o lugar de referência onde a cidade nasceu e todas as medidas oficiais de distâncias rodoviárias usam como ponto de partida. Seu nome é, na verdade, Praça Rio Branco e fica ao lado do Porto de Pernambuco.
@@ -32,8 +61,9 @@
             
             Além disso, há nela uma estátua de bronze de 2,80 metros, de autoria do escultor francês Félix Charpentier.</p>
 
-        <h3>Localização</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15801.798127762593!2d-34.8703207!3d-8.055543599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a2a565885f%3A0x802b0e52579b84b7!2sRecife%2C%20PE%2C%2050030-230!5e0!3m2!1spt-BR!2sbr!4v1693319681720!5m2!1spt-BR!2sbr" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <hr>
+        <h2 id="localizacao">Localização</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15801.798127762593!2d-34.8703207!3d-8.055543599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a2a565885f%3A0x802b0e52579b84b7!2sRecife%2C%20PE%2C%2050030-230!5e0!3m2!1spt-BR!2sbr!4v1693319681720!5m2!1spt-BR!2sbr" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
 
     </main>
     <footer>
