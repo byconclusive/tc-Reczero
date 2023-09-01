@@ -1,8 +1,11 @@
+
+
 .menu {
     display: flex;
     width: 10px;
     align-items: center;
-    justify-content: ;
+    gap: 26rem;
+    height: 100px;
 }
 
 a {
@@ -11,12 +14,17 @@ a {
     font-family: 'Times New Roman', Times, serif;
 }
 
+a:hover{
+    color: rgb(7, 233, 75);
+}
+
 li {
     list-style: none;
 }
 
 header {
     display: flex;
+    background-color: #eac7f8;
 }
 
 ul {
@@ -47,7 +55,9 @@ footer {
     width: 100%;
     align-items: center;
     justify-content: space-between;
-
+    height: 100px;
+    background-color: #eac7f8;
+    position: ;
 }
  
 h2{
@@ -58,24 +68,29 @@ p {
     font-size: 20px;
     margin: 20px;
     display: block;
+    text-align: center;
+
 }
 
 hr {
     width: 80%;
+    margin-top: 40px;
 }
 
 main{
     flex-direction: row;
+    margin: 20px;
 }
 
 
 .slide {
     display: block;
-    height: 293px;
+    height: 440px;
     width: 600px;
     margin: auto;
     margin-top: 20px;
     position: relative;
+    overflow: hidden;
 }
 
 .slide li{
@@ -141,4 +156,12 @@ main{
     z-index: 10;
 }
 
+/*Página Pontos*/
+.pontost {
+    display: flex;
+    margin: auto;
+}
 
+h2#pontos {
+    
+}
